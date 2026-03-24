@@ -1,9 +1,17 @@
 {
-  "buildCommand": "next build",
-  "devCommand": "next dev",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
   "outputDirectory": ".next",
+  "env": {
+    "NEXT_PUBLIC_API_URL": "/api"
+  },
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.9"
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",
