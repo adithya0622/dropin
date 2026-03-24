@@ -7,11 +7,6 @@
   "env": {
     "NEXT_PUBLIC_API_URL": "/api"
   },
-  "functions": {
-    "api/index.py": {
-      "runtime": "python3.9"
-    }
-  },
   "headers": [
     {
       "source": "/(.*)",
