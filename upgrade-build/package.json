@@ -1,0 +1,43 @@
+{
+  "name": "upgrade-build",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "demo": "npm run build && npm start -- --open",
+    "vercel-build": "next build && next start"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "chart.js": "^4.5.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.24",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^0.542.0",
+    "next": "^14.2.35",
+    "next-auth": "^4.24.11",
+    "next-themes": "^0.4.6",
+    "react": "18.3.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-confetti": "^6.4.0",
+    "react-dom": "18.3.1",
+    "react-is": "^19.2.4",
+    "recharts": "^3.2.1",
+    "sonner": "^2.0.7",
+    "swr": "^2.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.17",
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.33",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}

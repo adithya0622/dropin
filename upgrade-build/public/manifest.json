@@ -1,0 +1,61 @@
+{
+  "name": "AURISTRA'26 Upgrade Dashboard",
+  "short_name": "Upgrade",
+  "description": "Skill upgrade dashboard with AI recommendations and real-time impact metrics",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#06b6d4",
+  "background_color": "#050816",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23050816' width='192' height='192'/><circle cx='96' cy='96' r='60' fill='%2306b6d4'/><path d='M96 60 L120 90 L110 90 L110 120 L82 120 L82 90 L72 90 Z' fill='%23050816'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23050816' width='512' height='512'/><circle cx='256' cy='256' r='160' fill='%2306b6d4'/><path d='M256 160 L320 240 L290 240 L290 320 L222 320 L222 240 L192 240 Z' fill='%23050816'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23050816' width='540' height='720'/><rect fill='%2306b6d4' width='540' height='80'/><text x='20' y='50' font-size='28' font-weight='bold' fill='white'>Upgrade</text><rect y='100' width='540' height='100' fill='%23334155'/><rect y='220' width='540' height='100' fill='%231e293b'/><rect y='340' width='540' height='150' fill='%230f172a'/></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your skill progress and AI recommendations",
+      "url": "/",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%2306b6d4' width='192' height='192'/><rect x='30' y='30' width='50' height='50' fill='%23050816'/><rect x='112' y='30' width='50' height='50' fill='%23050816'/><rect x='30' y='112' width='50' height='50' fill='%23050816'/><rect x='112' y='112' width='50' height='50' fill='%23050816'/></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Demo Mode",
+      "short_name": "Demo",
+      "description": "Load pre-seeded championship data",
+      "url": "/demo",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%2310b981' width='192' height='192'/><circle cx='96' cy='96' r='60' fill='%23050816'/><text x='50%' y='50%' font-size='80' font-weight='bold' fill='%2310b981' text-anchor='middle' dominant-baseline='middle'>▶</text></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
